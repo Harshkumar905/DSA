@@ -1,15 +1,14 @@
 
-
 public class secondSmallest {
     public static int secondSmallest(int arr[]) {
         int smallest = arr[0];
         int secondSmallest = Integer.MAX_VALUE;
 
-        for(int i=1 ; i<arr.length ; i++){
-            if(arr[i] < smallest){
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < smallest) {
                 secondSmallest = smallest;
                 smallest = arr[i];
-            }else if(arr[i] != smallest && arr[i] < secondSmallest){
+            } else if (arr[i] != smallest && arr[i] < secondSmallest) {
                 secondSmallest = arr[i];
             }
         }
@@ -22,6 +21,5 @@ public class secondSmallest {
     }
 }
 
-
-//TC = 0(n)
-//SC = 0(1)
+// TC = 0(n)
+// SC = 0(1)

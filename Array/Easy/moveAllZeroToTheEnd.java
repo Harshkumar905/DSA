@@ -1,5 +1,4 @@
 
-
 public class moveAllZeroToTheEnd {
     public static int[] moveAllZerotoTheEnd(int arr[]) {
 
@@ -34,6 +33,6 @@ public class moveAllZeroToTheEnd {
     }
 }
 
-//TC = 0(n)+0(x)+0(n-x) = 0(2n)
-//SC = 0(x) extra space;
-//SC = 0(N) worst case
+// TC = 0(n)+0(x)+0(n-x) = 0(2n)
+// SC = 0(x) extra space;
+// SC = 0(N) worst case

@@ -1,5 +1,4 @@
 
-
 public class moveAllZeroToLastByOptimal {
     public static int[] moveAllZerotoTheEnd(int arr[]) {
         // finding and placing the j pointer to the null element
